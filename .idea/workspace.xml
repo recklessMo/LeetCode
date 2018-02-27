@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a9b132e-5b03-4864-8e92-89af8e31b1c9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/AddTwoNumber_2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/model/ListNode.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/LongestSubstringWithoutRepeatingCharacters_3.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/TwoSum_1.java" afterPath="$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/TwoSum_1.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,12 +27,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddTwoNumber_2.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddTwoNumber_2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/AddTwoNumber_2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="146">
               <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongestSubstringWithoutRepeatingCharacters_3.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/LongestSubstringWithoutRepeatingCharacters_3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,6 +110,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/TwoSum_1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/model/ListNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/AddTwoNumber_2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/LongestSubstringWithoutRepeatingCharacters_3.java" />
       </list>
     </option>
   </component>
@@ -167,15 +178,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -322,12 +324,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519714702083</updated>
-      <workItem from="1519714703775" duration="5786000" />
+      <workItem from="1519714703775" duration="7052000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5786000" />
+    <option name="totallyTimeSpent" value="7052000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="722" extended-state="0" />
@@ -418,6 +420,16 @@
         <state relative-caret-position="146">
           <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/LongestSubstringWithoutRepeatingCharacters_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
