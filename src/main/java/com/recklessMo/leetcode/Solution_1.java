@@ -4,7 +4,7 @@ import java.nio.charset.Charset;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TwoSum_1 {
+public class Solution_1 {
 
     public int[] twoSum(int[] nums, int target) {
         for(int i = 0; i < nums.length; i++){

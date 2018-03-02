@@ -1,10 +1,23 @@
 package com.recklessMo.leetcode;
 
-public class LongestPalindromicSubstring_5 {
+public class Solution_5 {
 
     private int total = 0;
     private String result = null;
 
+    /**
+     *
+     *     除了这种方法还可以采用dp的方法。
+     *
+     *  boolean dp[i][j] 代表从i到j是否是回文串
+     *
+     *  dp[i][j] = {dp[i-1][j-1] && (s.charAt[i] == s.charAt[j]}
+     *
+     *  for循环的时候外层循环用gap，gap就是j-i的值
+     *
+     *
+     *
+     */
     public String longestPalindrome(String s) {
         if(s == null || s.equals("")){
             return null;
@@ -30,10 +43,13 @@ public class LongestPalindromicSubstring_5 {
         }
     }
 
+    /*************/
+
 
     public static void main(String[] args){
-        LongestPalindromicSubstring_5 temp = new LongestPalindromicSubstring_5();
-        System.out.println(temp.longestPalindrome("abba"));
+//        Solution_5 temp = new Solution_5();
+//        System.out.println(temp.longestPalindrome("abba"));
+
     }
 
 

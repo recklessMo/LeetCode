@@ -2,7 +2,7 @@ package com.recklessMo.leetcode;
 
 import com.recklessMo.leetcode.model.ListNode;
 
-public class AddTwoNumber_2 {
+public class Solution_2 {
 
     /**
      *
