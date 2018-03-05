@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a9b132e-5b03-4864-8e92-89af8e31b1c9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/Solution_6.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/Solution_7.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/Solution_7.java" afterPath="$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/Solution_7.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,8 +73,8 @@
       <file leaf-file-name="Solution_7.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/Solution_7.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="242">
+              <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -85,8 +83,8 @@
       <file leaf-file-name="Integer.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-230">
-              <caret line="660" column="36" lean-forward="false" selection-start-line="660" selection-start-column="36" selection-end-line="660" selection-end-column="36" />
+            <state relative-caret-position="218">
+              <caret line="452" column="50" lean-forward="true" selection-start-line="452" selection-start-column="50" selection-end-line="452" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -103,8 +101,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>toString(</find>
       <find>hashco</find>
+      <find>toString(</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -410,12 +408,12 @@
       <updated>1519714702083</updated>
       <workItem from="1519714703775" duration="19254000" />
       <workItem from="1519959511331" duration="110000" />
-      <workItem from="1519986849614" duration="3334000" />
+      <workItem from="1519986849614" duration="5647000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22698000" />
+    <option name="totallyTimeSpent" value="25011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="722" extended-state="0" />
@@ -644,16 +642,16 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-230">
-          <caret line="660" column="36" lean-forward="false" selection-start-line="660" selection-start-column="36" selection-end-line="660" selection-end-column="36" />
+        <state relative-caret-position="218">
+          <caret line="452" column="50" lean-forward="true" selection-start-line="452" selection-start-column="50" selection-end-line="452" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/Solution_7.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="242">
+          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
           <folding />
         </state>
       </provider>

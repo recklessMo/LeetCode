@@ -21,8 +21,16 @@ public class Solution_7 {
         //java采用的是除法取整。
         //-3 % 10 实际上等于 -3 - （-3 / 10 * 10） = -3
         //所以理解取模需要根据除法来理解，除法有很多种的形式，所以取模也有很多形式~
-        System.out.println(-3%10);
+//        System.out.println(-3%10);
+
+        Long a = new Long(123333);
+        Long b = new Long(123333);
+        long c = 123333;
+        System.out.println(a.equals(b));
+
     }
+
+
 
 
 
