@@ -30,7 +30,24 @@ public class Solution_14 {
 
     public static void main(String[] args) {
 
+        new Thread(new Task()).start();
 
+        System.out.println("main done");
+
+    }
+
+
+    public static class Task implements  Runnable{
+        @Override
+        public void run() {
+            try {
+                Thread.sleep(20000);
+            }catch (Exception e){
+
+            }
+
+            System.out.println("done");
+        }
     }
 
 
