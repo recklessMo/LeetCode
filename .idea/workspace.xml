@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a9b132e-5b03-4864-8e92-89af8e31b1c9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/Solution_26.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/Solution_27.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/Solution_28.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,28 +20,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="101" column="39" lean-forward="false" selection-start-line="101" selection-start-column="39" selection-end-line="101" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution_19.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/Solution_19.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution_20.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/Solution_20.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,11 +97,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution_27.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution_27.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/Solution_27.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution_28.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/Solution_28.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="1763" column="27" lean-forward="true" selection-start-line="1763" selection-start-column="27" selection-end-line="1763" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -148,6 +145,8 @@
       <find>toString(</find>
       <find>valueOf</find>
       <find>max(</find>
+      <find>str</find>
+      <find>indexOf(</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -190,6 +189,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/Solution_25.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/Solution_26.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/Solution_27.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/Solution_28.java" />
       </list>
     </option>
   </component>
@@ -249,14 +249,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -503,12 +495,12 @@
       <workItem from="1519986849614" duration="36416000" />
       <workItem from="1521717033730" duration="7441000" />
       <workItem from="1522210994231" duration="787000" />
-      <workItem from="1522216624430" duration="7880000" />
+      <workItem from="1522216624430" duration="9570000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71888000" />
+    <option name="totallyTimeSpent" value="73578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="722" extended-state="6" />
@@ -564,16 +556,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/Solution_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/Solution_2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -826,19 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="2969" column="5" lean-forward="true" selection-start-line="2969" selection-start-column="5" selection-end-line="2969" selection-end-column="5" />
-          <folding>
-            <element signature="e#117557#117558#0" expanded="false" />
-            <element signature="e#117619#117620#0" expanded="false" />
-            <element signature="e#118069#118070#0" expanded="false" />
-            <element signature="e#118108#118109#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/lang/Number.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -892,7 +861,7 @@
         <state relative-caret-position="195">
           <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -910,7 +879,7 @@
         <state relative-caret-position="480">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1012,6 +981,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="1763" column="27" lean-forward="true" selection-start-line="1763" selection-start-column="27" selection-end-line="1763" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recklessMo/leetcode/Solution_28.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
