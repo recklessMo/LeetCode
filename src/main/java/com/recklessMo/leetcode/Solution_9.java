@@ -15,4 +15,30 @@ public class Solution_9 {
 
     //compare half of the digit, so no overflow need to concern
 
+    public static void main(String[] args){
+
+        Thread a = new Thread(() -> {
+            int xy = 0;
+            while(true){
+                xy++;
+                if(xy % 100000 == 0){
+                    System.out.println("running !");
+                }
+            }
+        });
+
+        Thread b = new Thread(() -> {
+            try {
+                Thread.sleep(2000);
+                a.interrupt();
+            }catch (Exception e){
+
+            }
+        });
+
+        a.start();
+        b.start();
+
+    }
+
 }
