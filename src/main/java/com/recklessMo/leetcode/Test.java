@@ -4,6 +4,7 @@ package com.recklessMo.leetcode;
 import javax.crypto.Cipher;
 import java.security.Key;
 import java.security.Security;
+import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.logging.Logger;
 
@@ -118,13 +119,25 @@ public class Test {
 
     public static void main(String[] args)throws  Exception{
 
+//
+//        System.out.println(Test.decrypt("e751d5785efe05ad"));
+//
+//        System.out.println(Test.encrypt("192.168.1.161"));
+//        System.out.println(Test.encrypt("naliworld"));
+//        System.out.println(Test.encrypt("password!"));
 
-        System.out.println(Test.decrypt("e751d5785efe05ad"));
+//        SimpleDateFormat sf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+//        sf.setTimeZone(TimeZone.getTimeZone("Asia/shanghai"));
+//        String str3 = "1927-12-31 23:54:07";
+//        String str4 = "1927-12-31 23:54:08";
+//        Date sDt3 = sf.parse(str3);
+//        Date sDt4 = sf.parse(str4);
+//        long ld3 = sDt3.getTime() /1000;
+//        long ld4 = sDt4.getTime() /1000;
+//        System.out.println(ld4-ld3);
 
-        System.out.println(Test.encrypt("192.168.1.161"));
-        System.out.println(Test.encrypt("naliworld"));
-        System.out.println(Test.encrypt("password!"));
-
+        java.util.Date time = new java.util.Date(1280512800000L);
+        System.out.println(time);
 
 
     }
