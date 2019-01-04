@@ -6,6 +6,10 @@ import java.security.Key;
 import java.security.Security;
 import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Future;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
 import java.util.logging.Logger;
 
 public class Test {
@@ -116,6 +120,14 @@ public class Test {
     }
 
 
+    <T> Future<T> get(Future<Object> t){
+        return (Future<T>)t;
+    }
+
+    Future<?> get1(Future<?> a){
+        return a;
+    }
+
 
     public static void main(String[] args)throws  Exception{
 
@@ -136,8 +148,35 @@ public class Test {
 //        long ld4 = sDt4.getTime() /1000;
 //        System.out.println(ld4-ld3);
 
-        java.util.Date time = new java.util.Date(1280512800000L);
-        System.out.println(time);
+//        java.util.Date time = new java.util.Date(1280512800000L);
+//        System.out.println(time);
+
+//        Future<Integer> a = null;
+//        Future<Integer> b = new Test().get1(a);
+
+
+        List<Integer> a = new ArrayList<>();
+        List<Double> b = new ArrayList<>();
+        List<Object> c = new ArrayList<>();
+        List d = new ArrayList();
+
+        List<Double> z = null;
+
+        List<?> x = a;
+        List y = x;
+
+        List[] k = new ArrayList[1];
+
+
+
+//        System.out.println(c.getClass());
+//        System.out.println(d.getClass());
+//        System.out.println(c.getClass() == d.getClass());
+
+
+//        System.out.println(Future<InT>);
+
+
 
 
     }
